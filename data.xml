@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer lastName ="Adams" firstName="Maurice">
+        <account type="residential" accountNumber="876-543-21">
+            <address type="mailing" unit="308" street="W 4th St." number="56" zipCode="13126"/>
+            <address type="apartment" unit="308" street="W 4th St." number="56" zipCode="13126">
+                <meter id = "RM-4877-X4" brand="GE" type="push" location = "East side of building">
+                <meterReading reading="650" date = "1413227815" flag="push"/>
+                <meterReading reading="675" date = "1413314215" flag="push"/>
+                <meterReading reading="622" date = "1413400615" flag="push"/>
+                </meter>      
+            </address>
+        </account>     
+    </customer>
+  <customer lastName ="Costanza" firstName="George">
+        <account type="commercial" accountNumber="765-432-10">
+            <address type="mailing" street="E 5th St." number="65" zipCode="13126"/>
+            <address type="commercial" street="Albany St." number="56" zipCode="13126">
+                <meter id = "CM-7784-D1" brand="GE" type="poll" location = "North entrance">
+                <meterReading reading="5043" date = "1413226815" flag="poll"/>
+                <meterReading reading="6152" date = "1413313215" flag="poll"/>
+                <meterReading reading="7261" date = "1413399615" flag="poll"/>
+                </meter>      
+            </address>
+              <address type="commercial" street="Oneida St." number="72" zipCode="13126">
+                <meter id = "CM-7684-D2" brand="GE" type="push" location = "South end of basement">
+                <meterReading reading="650" date = "1413227815" flag="poll"/>
+                <meterReading reading="760" date = "1413313115" flag="poll"/>
+                <meterReading reading="781" date = "1413399515" flag="poll"/>
+                <meterReading reading="722" date = "1413487015" flag="poll"/>
+                </meter>      
+            </address>
+        </account>     
+    </customer>
+
+
+
+
